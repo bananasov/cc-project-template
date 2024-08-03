@@ -1,0 +1,12 @@
+{
+  "bundle": {
+    "modules_identifier": "__DARKLUA_BUNDLE_MODULES",
+    "excludes": ["cc.*"],
+
+    "require_mode": {
+      "name": "path"
+    }
+  },
+
+  "rules": []
+}

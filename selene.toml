@@ -1,0 +1,3 @@
+std = "cc-tweaked"
+
+exclude = [".lua-ls-definitions/*", "*.json", "out/"]

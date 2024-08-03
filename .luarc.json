@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime": {
+    "version": "Lua 5.2"
+  },
+  "workspace.checkThirdParty": true,
+  "workspace.userThirdParty": ["./.lua-ls-definitions/meta/3rd"],
+  "workspace.library": ["./.lua-ls-definitions/meta/3rd/cc-tweaked/library"],
+  "hint.enable": true,
+  "runtime.builtin": {
+    "io": "disable",
+    "os": "disable"
+  }
+}
